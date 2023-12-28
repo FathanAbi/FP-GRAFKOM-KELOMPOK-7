@@ -251,6 +251,26 @@ io.on("connection", (socket) => {
 
 // SHOP ITEMS
 const items = {
+  papanTulis: {
+    name: "papanTulis",
+    size: [1, 1],
+  },
+  mejaTC: {
+    name: "mejaTC",
+    size: [1, 1],
+  },
+  logoHMTC: {
+    name: "logoHMTC",
+    size: [1, 1],
+  },
+  logoITS: {
+    name: "logoITS",
+    size: [1, 1],
+  },
+  simpleTable: {
+    name: "simpleTable",
+    size: [0.1, 0.1],
+  },
   washer: {
     name: "washer",
     size: [2, 2],
